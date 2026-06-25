@@ -6,7 +6,7 @@
 
 ## Red Team Assessment, AI Security Review, and Analyst-Focused Security Reporting
 
-— Analyst-focused red team assessment, AI security review, and executive reporting for modern web, API, LLM, and agentic AI environments.
+Analyst-focused red team assessment, AI security review, and executive reporting for modern web, API, LLM, and agentic AI environments.
 
 </div>
 
