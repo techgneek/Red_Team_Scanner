@@ -3,7 +3,7 @@
 # 🦅 AetosAI
 
 # Agentic AI SaaS Security Platform
-
+<img width="1536" height="1024" alt="ChatGPT Image Jun 24, 2026, 10_02_22 PM" src="https://github.com/user-attachments/assets/2f349fdd-7274-45d5-ba5b-bd9e94d427bd" />
 ## Red Team Assessment, AI Security Review, and Analyst-Focused Security Reporting
 
 Analyst-focused red team assessment, AI security review, and executive reporting for modern web, API, LLM, and agentic AI environments.
@@ -19,7 +19,6 @@ Analyst-focused red team assessment, AI security review, and executive reporting
 
 
 ---
-<img width="1536" height="1024" alt="ChatGPT Image Jun 24, 2026, 10_02_22 PM" src="https://github.com/user-attachments/assets/2f349fdd-7274-45d5-ba5b-bd9e94d427bd" />
 
 ## 1. Executive Summary
 
