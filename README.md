@@ -1,6 +1,6 @@
 <div align="center">
   
-# AetosAI
+# 🦅 AetosAI
 
 # Agentic AI SaaS Security Platform
 
