@@ -116,12 +116,16 @@ The unified dashboard serves as the administrative hub for active security asses
 * **Risk Trend Charts**: Uses data visualizations (`recharts`) to present historical trends, helping teams track risk burn-down rates.
 * **Recent Activity Log**: Shows a chronological list of recent scans, including target URLs, assessment types, risk states, and direct links to reports.
 
+<img width="1535" height="709" alt="Screenshot 2026-06-24 at 9 28 08 PM" src="https://github.com/user-attachments/assets/5594937e-229a-4c75-8364-b1b1f98b800e" />
+
 ### Run Assessment Page
 The core interface where analysts establish scanning scopes:
 * **Target Specifier**: Interactive search bar with validation for URLs, API endpoints, domains, and IP addresses.
 * **Scope Selector**: Allows switching between Web, API, Domain/IP, LLM Application, Agentic AI, or Unified.
 * **Authorization Gate**: A mandatory confirmation checkbox enforcing ethical and authorized security reviews.
 * **Live Shell Stream**: An interactive console displaying the active operations (e.g., initial DNS lookup, header verification, CORS inspection, cognitive safety simulation).
+
+<img width="1451" height="692" alt="Screenshot 2026-06-24 at 9 36 20 PM" src="https://github.com/user-attachments/assets/e996f17e-32f4-4864-a02e-4ebd3322c003" />
 
 ### Supported Target Types
 * **Website URLs**: Public front-end portals and administrative logins.
@@ -151,16 +155,22 @@ An interactive sandbox page designed for manual testing:
 * **Interactive Chat Console**: Permits analysts to submit payloads directly to the target system in real-time, checking for instruction refusals or system prompt leakage.
 * **Refusal Evaluation Engine**: Evaluates response strings to determine if the target successfully blocked the attack vector or printed sensitive back-end secrets.
 
+<img width="1433" height="696" alt="Screenshot 2026-06-24 at 9 45 51 PM" src="https://github.com/user-attachments/assets/f1c8f273-993b-4689-ac28-b222fe274103" />
+
 ### Supply Chain Auditor (SCA)
 A focused dependency auditor checking project software structures:
 * **Dependency Visualizer**: Lists imported NPM packages, licenses, and library sizes.
 * **Vulnerability Mapping**: Automatically flags known outdated dependencies or software vulnerabilities.
 * **Framework Alignment**: Links package issues to the supply chain guidelines in OWASP Web and OWASP LLM categories.
 
+<img width="1323" height="703" alt="Screenshot 2026-06-24 at 9 50 54 PM" src="https://github.com/user-attachments/assets/df54739a-bdb3-4dcb-859f-585bf1b1fae3" />
+
 ### OWASP Reference Deck
 A built-in educational and compliance knowledge base:
 * **Interactive Framework Cards**: Covers full categories for OWASP Web Top 10, OWASP LLM Top 10, and OWASP Agentic AI Top 10.
 * **Actionable Examples**: Lists practical attack scenarios, defense guidelines, and code snippets for each category.
+
+<img width="1472" height="700" alt="Screenshot 2026-06-24 at 9 53 30 PM" src="https://github.com/user-attachments/assets/437f94d3-940f-467a-b0cd-03540e9dc7bf" />
 
 ### Platform Settings
 An administrative panel to control scan profiles and external integrations:
@@ -168,6 +178,8 @@ An administrative panel to control scan profiles and external integrations:
 * **Reporting Options**: Toggles specific elements in generated reports, such as business impact sections, manual analyst notes, remediation steps, and framework mappings.
 * **Integration Credentials**: Allows analysts to securely supply external API keys (OpenAI, Gemini, Shodan, VirusTotal, Jira, ServiceNow, HackerOne, Slack Webhooks) to enrich scans. Includes safety masking (`●●●●●●●●`) to protect secrets.
 * **Cryptographic Audit Log**: A persistent log of platform configuration changes, report downloads, and scan activities, supporting SOC2 and ISO 27001 compliance tracking.
+
+<img width="1535" height="707" alt="Screenshot 2026-06-24 at 9 57 24 PM" src="https://github.com/user-attachments/assets/c9ad4895-ef2d-4ef7-aa93-98736c7c6ae4" />
 
 ---
 
